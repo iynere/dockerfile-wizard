@@ -59,8 +59,8 @@ jobs:
     steps:
       - checkout
 
-      - run:
-          name: start Xvfb for phantomjs test
+      # - run:
+      #     name: start Xvfb for phantomjs test
           # command: Xvfb :99
           # background: true
 
